@@ -63,7 +63,7 @@
             lblYear.Location = new Point(168, 9);
             lblYear.Name = "lblYear";
             lblYear.Size = new Size(37, 20);
-            lblYear.TabIndex = 1;
+            lblYear.TabIndex = 2;
             lblYear.Text = "&Year";
             // 
             // lblSummary
@@ -72,7 +72,7 @@
             lblSummary.Location = new Point(168, 161);
             lblSummary.Name = "lblSummary";
             lblSummary.Size = new Size(436, 80);
-            lblSummary.TabIndex = 4;
+            lblSummary.TabIndex = 7;
             lblSummary.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // lstMakeModel
@@ -82,14 +82,14 @@
             lstMakeModel.Location = new Point(12, 32);
             lstMakeModel.Name = "lstMakeModel";
             lstMakeModel.Size = new Size(150, 104);
-            lstMakeModel.TabIndex = 5;
+            lstMakeModel.TabIndex = 1;
             // 
             // txtYear
             // 
             txtYear.Location = new Point(168, 32);
             txtYear.Name = "txtYear";
             txtYear.Size = new Size(125, 27);
-            txtYear.TabIndex = 6;
+            txtYear.TabIndex = 3;
             // 
             // grpColors
             // 
@@ -100,7 +100,7 @@
             grpColors.Location = new Point(299, 12);
             grpColors.Name = "grpColors";
             grpColors.Size = new Size(144, 146);
-            grpColors.TabIndex = 7;
+            grpColors.TabIndex = 4;
             grpColors.TabStop = false;
             grpColors.Text = "&Color";
             // 
@@ -110,7 +110,7 @@
             rbtnRed.Location = new Point(6, 20);
             rbtnRed.Name = "rbtnRed";
             rbtnRed.Size = new Size(56, 24);
-            rbtnRed.TabIndex = 9;
+            rbtnRed.TabIndex = 0;
             rbtnRed.TabStop = true;
             rbtnRed.Text = "Red";
             rbtnRed.UseVisualStyleBackColor = true;
@@ -122,7 +122,7 @@
             rbtnBlue.Location = new Point(6, 50);
             rbtnBlue.Name = "rbtnBlue";
             rbtnBlue.Size = new Size(59, 24);
-            rbtnBlue.TabIndex = 10;
+            rbtnBlue.TabIndex = 1;
             rbtnBlue.TabStop = true;
             rbtnBlue.Text = "Blue";
             rbtnBlue.UseVisualStyleBackColor = true;
@@ -134,7 +134,7 @@
             rbtnBlack.Location = new Point(6, 80);
             rbtnBlack.Name = "rbtnBlack";
             rbtnBlack.Size = new Size(65, 24);
-            rbtnBlack.TabIndex = 11;
+            rbtnBlack.TabIndex = 2;
             rbtnBlack.TabStop = true;
             rbtnBlack.Text = "Black";
             rbtnBlack.UseVisualStyleBackColor = true;
@@ -146,7 +146,7 @@
             rbtnWhite.Location = new Point(6, 110);
             rbtnWhite.Name = "rbtnWhite";
             rbtnWhite.Size = new Size(69, 24);
-            rbtnWhite.TabIndex = 12;
+            rbtnWhite.TabIndex = 3;
             rbtnWhite.TabStop = true;
             rbtnWhite.Text = "White";
             rbtnWhite.UseVisualStyleBackColor = true;
@@ -161,7 +161,7 @@
             grpFeatures.Location = new Point(449, 12);
             grpFeatures.Name = "grpFeatures";
             grpFeatures.Size = new Size(155, 146);
-            grpFeatures.TabIndex = 0;
+            grpFeatures.TabIndex = 5;
             grpFeatures.TabStop = false;
             grpFeatures.Text = "&Features";
             // 
@@ -171,7 +171,7 @@
             chkLaneAssist.Location = new Point(6, 110);
             chkLaneAssist.Name = "chkLaneAssist";
             chkLaneAssist.Size = new Size(103, 24);
-            chkLaneAssist.TabIndex = 12;
+            chkLaneAssist.TabIndex = 3;
             chkLaneAssist.Text = "Lane Assist";
             chkLaneAssist.UseVisualStyleBackColor = true;
             // 
@@ -181,7 +181,7 @@
             chkAC.Location = new Point(6, 20);
             chkAC.Name = "chkAC";
             chkAC.Size = new Size(50, 24);
-            chkAC.TabIndex = 9;
+            chkAC.TabIndex = 0;
             chkAC.Text = "AC";
             chkAC.UseVisualStyleBackColor = true;
             // 
@@ -191,7 +191,7 @@
             chkSyriusRadio.Location = new Point(6, 80);
             chkSyriusRadio.Name = "chkSyriusRadio";
             chkSyriusRadio.Size = new Size(112, 24);
-            chkSyriusRadio.TabIndex = 11;
+            chkSyriusRadio.TabIndex = 2;
             chkSyriusRadio.Text = "Syrius Radio";
             chkSyriusRadio.UseVisualStyleBackColor = true;
             // 
@@ -201,7 +201,7 @@
             chkPowerWin.Location = new Point(6, 50);
             chkPowerWin.Name = "chkPowerWin";
             chkPowerWin.Size = new Size(136, 24);
-            chkPowerWin.TabIndex = 10;
+            chkPowerWin.TabIndex = 1;
             chkPowerWin.Text = "Power Windows";
             chkPowerWin.UseVisualStyleBackColor = true;
             // 
@@ -210,7 +210,7 @@
             btnPurchase.Location = new Point(39, 187);
             btnPurchase.Name = "btnPurchase";
             btnPurchase.Size = new Size(94, 29);
-            btnPurchase.TabIndex = 8;
+            btnPurchase.TabIndex = 6;
             btnPurchase.Text = "&Purchase";
             btnPurchase.UseVisualStyleBackColor = true;
             btnPurchase.Click += btnPurchase_Click;
