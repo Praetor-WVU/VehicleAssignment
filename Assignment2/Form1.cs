@@ -11,7 +11,6 @@ namespace Assignment2
         {
             InitializeComponent();
         }
-
         private void btnPurchase_Click(object sender, EventArgs e)
         {
             lblSummary.ForeColor = Color.Black;
