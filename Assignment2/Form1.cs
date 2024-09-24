@@ -6,7 +6,7 @@ namespace Assignment2
     public partial class frmAssignment2 : Form
     {
         public enum Colors { Red, Blue, Black, White }
-        String selectedColor = null;
+        String selectedColor = "";
         public frmAssignment2()
         {
             InitializeComponent();
@@ -37,7 +37,7 @@ namespace Assignment2
                 lblSummary.Text = "Enter a valid year!";
                 return;
             }
-            if (selectedColor==null)
+            if (selectedColor=="")
             {
                 lblSummary.ForeColor = Color.Red;
                 lblSummary.Text = "Select a color!";
